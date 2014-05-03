@@ -1,0 +1,47 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 2014/4/20 ¤W¤È 3:42
+Description: Exception in server tick loop
+
+java.lang.NoClassDefFoundError: net/minecraft/client/settings/KeyBinding
+	at com.tsoft_web.IntelliInput.asm.IntelliInputModContainer.<clinit>(IntelliInputModContainer.java:79)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:321)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:465)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:86)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:310)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:114)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:374)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:665)
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.settings.KeyBinding
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:180)
+	... 12 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.2
+	Operating System: Windows 8.1 (x86) version 6.3
+	Java Version: 1.7.0_55, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode, sharing), Oracle Corporation
+	Memory: 31036312 bytes (29 MB) / 70176768 bytes (66 MB) up to 259522560 bytes (247 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.01-pre FML v7.2.156.1060 Minecraft Forge 10.12.1.1060 3 mods loaded, 0 mods active
+	mcp{8.09} [Minecraft Coder Pack] (minecraft.jar) 
+	FML{7.2.156.1060} [Forge Mod Loader] (forge-1.7.2-10.12.1.1060-universal.jar) 
+	Forge{10.12.1.1060} [Minecraft Forge] (forge-1.7.2-10.12.1.1060-universal.jar) 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
