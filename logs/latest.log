@@ -1,363 +1,129 @@
-[19:54:00] [Server thread/INFO]: Starting minecraft server version 1.7.2
-[19:54:00] [Server console handler/ERROR]: Exception handling console input
+[04:40:52] [Server thread/INFO]: Starting minecraft server version 1.7.2
+[04:40:52] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: 控制代碼無效。
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0]
-	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0]
-	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0]
-	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0]
-	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0]
-	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0]
-	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0]
-	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0]
-	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0]
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_05]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_05]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_05]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_05]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_05]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_05]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_05]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_05]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_05]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_05]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_05]
 	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:94) [ll.class:?]
-[19:54:03] [Server thread/INFO]: Loading properties
-[19:54:03] [Server thread/INFO]: Default game type: SURVIVAL
-[19:54:03] [Server thread/INFO]: Generating keypair
-[19:54:03] [Server thread/INFO]: Starting Minecraft server on *:12345
-[19:54:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:54:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:54:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:54:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:54:03] [Server thread/INFO]: Preparing level "world"
-[19:54:04] [Server thread/INFO]: Preparing start region for level 0
-[19:54:05] [Server thread/INFO]: Preparing spawn area: 67%
-[19:54:05] [Server thread/INFO]: Done (1.646s)! For help, type "help" or "?"
-[19:54:13] [Server thread/INFO]: Kizuna[/114.42.116.46:52335] logged in with entity id 545 at (50.701627992538604, 70.0, 288.7710645620325)
-[19:54:13] [Server thread/INFO]: Kizuna joined the game
-[19:54:18] [Server thread/INFO]: dragonfly[/36.231.132.23:2632] logged in with entity id 813 at (-116.56452072334179, 81.0, -1136.3079666725293)
-[19:54:18] [Server thread/INFO]: dragonfly joined the game
-[19:55:16] [Server thread/INFO]: Negaihoshi[/169.254.216.10:63131] logged in with entity id 2391 at (-124.52553395808332, 71.0, -1122.699999988079)
-[19:55:16] [Server thread/INFO]: Negaihoshi joined the game
-[19:55:38] [Server thread/INFO]: Negaihoshi lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[19:55:38] [Server thread/INFO]: Negaihoshi left the game
-[19:56:10] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3494ms behind, skipping 69 tick(s)
-[19:56:23] [Server thread/INFO]: Negaihoshi[/169.254.216.10:63240] logged in with entity id 3635 at (-133.72382482179162, 72.0, -1120.9480730637297)
-[19:56:23] [Server thread/INFO]: Negaihoshi joined the game
-[19:56:42] [Server thread/INFO]: Negaihoshi lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[19:56:42] [Server thread/INFO]: Negaihoshi left the game
-[19:56:49] [Server thread/INFO]: [Server] 已哭
-[19:57:41] [Server thread/INFO]: Negaihoshi[/169.254.216.10:63388] logged in with entity id 5234 at (-130.38146723102898, 72.0, -1119.4350376821085)
-[19:57:41] [Server thread/INFO]: Negaihoshi joined the game
-[19:58:02] [Server thread/INFO]: Negaihoshi lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[19:58:02] [Server thread/INFO]: Negaihoshi left the game
-[19:58:32] [Server thread/INFO]: teatea[/36.231.213.20:2221] logged in with entity id 6676 at (-138.5364214490369, 80.0, -1161.412639966202)
-[19:58:32] [Server thread/INFO]: teatea joined the game
-[19:58:39] [Server thread/INFO]: Negaihoshi[/169.254.216.10:63486] logged in with entity id 6922 at (-130.63524005877628, 81.7531999805212, -1126.1793058381545)
-[19:58:39] [Server thread/INFO]: Negaihoshi joined the game
-[19:58:42] [Server thread/INFO]: <teatea> 看見火把了0.0
-[19:58:45] [Server thread/INFO]: <teatea> 黑 蜻蜓~
-[19:58:56] [Server thread/INFO]: <teatea> 淨化的土地是不會生怪嗎?
-[19:58:59] [Server thread/INFO]: <dragonfly> 有精靈
-[19:59:01] [Server thread/INFO]: <teatea> ...
-[19:59:01] [Server thread/INFO]: Negaihoshi lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[19:59:01] [Server thread/INFO]: Negaihoshi left the game
-[19:59:02] [Server thread/INFO]: <dragonfly> 這有聲怪專
-[19:59:03] [Server thread/INFO]: <teatea> 她打你?
-[19:59:05] [Server thread/INFO]: <teatea> = =
-[19:59:07] [Server thread/INFO]: <teatea> 她打妳嘛
-[19:59:08] [Server thread/INFO]: <dragonfly> 怪物太多了
-[19:59:11] [Server thread/INFO]: <teatea> ...........
-[19:59:15] [Server thread/INFO]: <dragonfly> 太多將施
-[19:59:25] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4843ms behind, skipping 96 tick(s)
-[19:59:27] [Server thread/INFO]: <teatea> 工鍵手..
-[19:59:33] [Server thread/INFO]: <teatea> 蜻蜓你還OK嘛
-[19:59:42] [Server thread/INFO]: <teatea> 苦力帕 我草
-[19:59:47] [Server thread/INFO]: Negaihoshi[/169.254.216.10:63581] logged in with entity id 9692 at (-130.5418459163498, 81.0, -1126.2672378422628)
-[19:59:47] [Server thread/INFO]: Negaihoshi joined the game
-[20:00:05] [Server thread/INFO]: Negaihoshi lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:00:05] [Server thread/INFO]: Negaihoshi left the game
-[20:00:21] [Server thread/INFO]: <teatea> 蜻蜓 郎勒
-[20:00:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3630ms behind, skipping 72 tick(s)
-[20:00:38] [Server thread/INFO]: Negaihoshi[/169.254.216.10:63678] logged in with entity id 11629 at (-122.99713669557303, 71.0, -1128.31801043293)
-[20:00:38] [Server thread/INFO]: Negaihoshi joined the game
-[20:00:47] [Server thread/INFO]: <dragonfly> 我先差火把
-[20:00:52] [Server thread/INFO]: Negaihoshi lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:00:52] [Server thread/INFO]: Negaihoshi left the game
-[20:01:34] [Server thread/INFO]: <teatea> 一直聽見怪怪的聲音
-[20:01:49] [Server thread/INFO]: Negaihoshi[/169.254.216.10:63798] logged in with entity id 12915 at (-109.69836578437597, 66.53584062504456, -1136.4074751021142)
-[20:01:49] [Server thread/INFO]: Negaihoshi joined the game
-[20:02:00] [Server thread/INFO]: Negaihoshi lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:02:00] [Server thread/INFO]: Negaihoshi left the game
-[20:02:17] [Server thread/INFO]: <teatea> 不知不覺要天亮了
-[20:02:18] [Server thread/INFO]: <dragonfly> 這邊太危險了
-[20:02:22] [Server thread/INFO]: <teatea> 但是怪物不會消失吧
-[20:02:27] [Server thread/INFO]: <teatea> 我覺得該回去了
-[20:02:30] [Server thread/INFO]: <teatea> 你得到樹苗了嗎
-[20:02:38] [Server thread/INFO]: <dragonfly> 你們還沒鑑定結點
-[20:02:45] [Server thread/INFO]: <teatea> ..
-[20:02:45] [Server thread/INFO]: Negaihoshi[/169.254.216.10:63909] logged in with entity id 14412 at (-97.27127521559461, 65.0, -1133.0864075465493)
-[20:02:45] [Server thread/INFO]: Negaihoshi joined the game
-[20:02:55] [Server thread/INFO]: Negaihoshi lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:02:55] [Server thread/INFO]: Negaihoshi left the game
-[20:03:38] [Server thread/INFO]: Negaihoshi[/169.254.216.10:64019] logged in with entity id 15577 at (-97.27127521559461, 65.0, -1133.0864075465493)
-[20:03:38] [Server thread/INFO]: Negaihoshi joined the game
-[20:03:44] [Server thread/INFO]: Teleported Negaihoshi to Kizuna
-[20:03:44] [Server thread/WARN]: Fetching addPacket for removed entity
-[20:04:11] [Server thread/INFO]: <Negaihoshi> 嗚嗚嗚 為什麼我在剛剛那個區域會不停的崩潰
-[20:04:39] [Server thread/INFO]: Teleported Negaihoshi to teatea
-[20:05:08] [Server thread/INFO]: <dragonfly> 可以下來了
-[20:05:17] [Server thread/INFO]: Negaihoshi lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:05:17] [Server thread/INFO]: Negaihoshi left the game
-[20:05:23] [Server thread/INFO]: <teatea> 視野珍廣闊
-[20:05:37] [Server thread/INFO]: [Server] 我從樹上下來就崩潰了
-[20:05:41] [Server thread/INFO]: <teatea> = =
-[20:05:48] [Server thread/INFO]: [Server] 我好難過 Q_Q
-[20:05:53] [Server thread/INFO]: <teatea> 要不要tp回家阿 你..
-[20:05:55] [Server thread/INFO]: Negaihoshi[/169.254.216.10:64253] logged in with entity id 19744 at (-143.69999998807907, 60.20000641719654, -1167.300000011921)
-[20:05:55] [Server thread/INFO]: Negaihoshi joined the game
-[20:06:00] [Server thread/INFO]: <teatea> 不然我們先離開這個區域
-[20:06:18] [Server thread/INFO]: Negaihoshi lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:06:18] [Server thread/INFO]: Negaihoshi left the game
-[20:06:31] [Server thread/INFO]: [Server] 剛剛 tp 過了阿 可以
-[20:06:44] [Server thread/INFO]: [Server] 只是我想摸一下銀樹
-[20:06:48] [Server thread/INFO]: <teatea> xd
-[20:06:51] [Server thread/INFO]: <dragonfly> XD
-[20:07:06] [Server thread/INFO]: Negaihoshi[/169.254.216.10:64476] logged in with entity id 22023 at (-118.62716597865447, 66.0, -1158.0662232775746)
-[20:07:06] [Server thread/INFO]: Negaihoshi joined the game
-[20:07:27] [Server thread/INFO]: <dragonfly> 這
-[20:07:44] [Server thread/INFO]: <Negaihoshi> OK
-[20:07:54] [Server thread/INFO]: <dragonfly> 都好了嗎
-[20:08:02] [Server thread/INFO]: <Negaihoshi> p
-[20:08:06] [Server thread/INFO]: <dragonfly> 這兩個要砍掉嗎
-[20:08:08] [Server thread/INFO]: <dragonfly> 節點
-[20:08:09] [Server thread/INFO]: <Negaihoshi> 好像是材質包
-[20:08:15] [Server thread/INFO]: <teatea> = =
-[20:08:22] [Server thread/INFO]: <Negaihoshi> 害我一直崩潰030
-[20:08:25] [Server thread/INFO]: <dragonfly> 先不要好了
-[20:08:30] [Server thread/INFO]: <Negaihoshi> 恩
-[20:08:50] [Server thread/INFO]: <teatea> 收穫好多
-[20:09:08] [Server thread/INFO]: <teatea> 黑要石圖騰= =?
-[20:09:10] [Server thread/INFO]: <teatea> 鬼東西阿這
-[20:09:15] [Server thread/INFO]: <dragonfly> 我等樹苗調
-[20:09:19] [Server thread/INFO]: <teatea> 可以拆嘛
-[20:09:25] [Server thread/INFO]: <dragonfly> 那是兇惡節點
-[20:09:28] [Server thread/INFO]: <teatea> 是喔..
-[20:09:35] [Server thread/INFO]: <dragonfly> 剛剛她一直朝怪物= =
-[20:09:38] [Server thread/INFO]: <teatea> = =
-[20:09:50] [Server thread/INFO]: <teatea> 有樹苗嘛
-[20:10:01] [Server thread/INFO]: <dragonfly> 沒= =
-[20:10:04] [Server thread/INFO]: <teatea> = =
-[20:10:12] [Server thread/INFO]: <Negaihoshi> 這一科有
-[20:10:29] [Server thread/INFO]: <teatea> 塊天黑了
-[20:11:01] [Server thread/INFO]: <Negaihoshi> 魔豆是可以拿回家的嗎
-[20:11:07] [Server thread/INFO]: <teatea> 要不要先蓋房子
-[20:11:08] [Server thread/INFO]: <dragonfly> 應該可以
-[20:11:22] [Server thread/INFO]: <teatea> 還是到我剛才那顆樹
-[20:11:23] [Server thread/INFO]: <teatea> 走吧
-[20:14:44] [Server thread/INFO]: <dragonfly> 拿到了
-[20:14:48] [Server thread/INFO]: <teatea> 恭喜
-[20:14:51] [Server thread/INFO]: <teatea> 別死了
-[20:14:55] [Server thread/INFO]: <Negaihoshi> 有巫婆
-[20:14:58] [Server thread/INFO]: <Negaihoshi> 兩隻
-[20:15:00] [Server thread/INFO]: <teatea> 靠腰
-[20:15:52] [Server thread/INFO]: <dragonfly> 巫婆在哪
-[20:16:15] [Server thread/INFO]: <Negaihoshi> 燃燒箭的附近
-[20:16:26] [Server thread/INFO]: <teatea> 你反方向
-[20:16:35] [Server thread/INFO]: <dragonfly> 對面一堆怪物= =
-[20:16:53] [Server thread/INFO]: <dragonfly> 話說我剛剛有看到精靈
-[20:16:56] [Server thread/INFO]: <dragonfly> 可是跑超快
-[20:17:12] [Server thread/INFO]: <teatea> = =
-[20:17:14] [Server thread/INFO]: <teatea> 長怎樣
-[20:17:18] [Server thread/INFO]: <teatea> 殭屍
-[20:17:25] [Server thread/INFO]: <dragonfly> 節點移動版
-[20:17:28] [Server thread/INFO]: <dragonfly> 不過比較大之
-[20:17:29] [Server thread/INFO]: <teatea> = =
-[20:17:31] [Server thread/INFO]: <dragonfly> 而且看的到
-[20:17:32] [Server thread/INFO]: <teatea> XDDD
-[20:17:42] [Server thread/INFO]: <teatea> 救命阿殭屍來了
-[20:18:06] [Server thread/INFO]: <teatea> 他釣鐵
-[20:18:09] [Server thread/INFO]: <teatea> 釣鐵
-[20:18:17] [Server thread/INFO]: <teatea> 蜻蜓~~
-[20:19:02] [Server thread/INFO]: <teatea> 2隻安德
-[20:19:10] [Server thread/INFO]: <teatea> 傷不起
-[20:19:32] [Server thread/INFO]: <Negaihoshi> 巫婆會不會跑進去洞理了
-[20:19:36] [Server thread/INFO]: <teatea> = =
-[20:20:24] [Server thread/INFO]: <Negaihoshi> 不見惹030
-[20:20:47] [Server thread/INFO]: <dragonfly> 不知道還有沒有銀樹
-[20:20:57] [Server thread/INFO]: <dragonfly> 我看到精靈
-[20:21:00] [Server thread/INFO]: <teatea> ..我也是
-[20:21:03] [Server thread/INFO]: <teatea> 真的是移動截點
-[20:21:13] [Server thread/INFO]: <teatea> ..天阿 好漂亮
-[20:21:17] [Server thread/INFO]: <teatea> 殭屍
-[20:21:18] [Server thread/INFO]: <dragonfly> 拿攻殺了他!!!
-[20:21:30] [Server thread/INFO]: <teatea> 拿工射他!!!快!!!
-[20:22:04] [Server thread/INFO]: <teatea> 不見了
-[20:22:22] [Server thread/INFO]: <teatea> 殭屍.. 過來了
-[20:22:47] [Server thread/INFO]: <teatea> 連肉都沒掉
-[20:23:02] [Server thread/INFO]: <teatea> 苦怕怕
-[20:23:11] [Server thread/INFO]: <teatea> 有了有了
-[20:23:57] [Server thread/INFO]: <teatea> 噴那什麼
-[20:24:05] [Server thread/INFO]: <Negaihoshi> 不知道
-[20:24:10] [Server thread/INFO]: <dragonfly> 精靈喔
-[20:24:12] [Server thread/INFO]: <teatea> 喔 ㄘㄟˊˊ
-[20:24:25] [Server thread/INFO]: <teatea> NO
-[20:24:45] [Server thread/INFO]: <teatea> 精靈不見了
-[20:25:12] [Server thread/INFO]: <teatea> 土快不夠了
-[20:25:16] [Server thread/INFO]: <teatea> 早知道戴兩被
-[20:25:28] [Server thread/INFO]: <teatea> 要走了嗎 還是要在呆一碗
-[20:25:33] [Server thread/INFO]: <dragonfly> 走吧
-[20:25:39] [Server thread/INFO]: <teatea> 嗯
-[20:26:15] [Server thread/INFO]: <teatea> 看到義堆難瓜
-[20:26:50] [Server thread/INFO]: <dragonfly> 沒東西
-[20:26:55] [Server thread/INFO]: <Negaihoshi> 恩 可以砍
-[20:27:19] [Server thread/INFO]: <dragonfly> 我發現斧頭只帶一把
-[20:27:20] [Server thread/INFO]: <dragonfly> = =
-[20:27:29] [Server thread/INFO]: <teatea> +1
-[20:28:45] [Server thread/INFO]: <Negaihoshi> 我發現我丟鐵稿給你幹麻.....
-[20:28:54] [Server thread/INFO]: <teatea> ww
-[20:28:55] [Server thread/INFO]: <dragonfly> 難怪想說奇怪
-[20:28:58] [Server thread/INFO]: <dragonfly> 我怎多一把
-[20:28:59] [Server thread/INFO]: <Negaihoshi> xdddd
-[20:29:17] [Server thread/INFO]: <Negaihoshi> 要剪刀嗎
-[20:29:19] [Server thread/INFO]: <Negaihoshi> 我有帶鐵
-[20:29:21] [Server thread/INFO]: <teatea> NO
-[20:29:28] [Server thread/INFO]: <teatea> 打發時間
-[20:29:38] [Server thread/INFO]: <Negaihoshi> 有樹苗
-[20:29:54] [Server thread/INFO]: <teatea> 有一根 就會有兩根
-[20:30:00] [Server thread/INFO]: <teatea> ...
-[20:30:00] [Server thread/INFO]: <dragonfly> .
-[20:30:01] [Server thread/INFO]: <Negaihoshi> 3.................
-[20:30:03] [Server thread/INFO]: <teatea> 甘..
-[20:30:07] [Server thread/INFO]: <teatea> 甘...
-[20:30:11] [Server thread/INFO]: <dragonfly> 好痛
-[20:30:18] [Server thread/INFO]: <teatea> 我是說缺土
-[20:30:21] [Server thread/INFO]: <teatea> 也不是這樣..
-[20:30:27] [Server thread/INFO]: <dragonfly> 我發現
-[20:30:31] [Server thread/INFO]: <dragonfly> 我剛用火把
-[20:30:32] [Server thread/INFO]: <Negaihoshi> ？
-[20:30:34] [Server thread/INFO]: <dragonfly> 打出樹苗
-[20:30:35] [Server thread/INFO]: <dragonfly> 0.0
-[20:30:38] [Server thread/INFO]: <teatea> ˊ_>ˋ
-[20:30:57] [Server thread/INFO]: <teatea> 對了 忘記跟你們說
-[20:31:06] [Server thread/INFO]: <teatea> 我之前幫忙砍銀樹 我狂剪樹苗
-[20:31:12] [Server thread/INFO]: <teatea> 樹苗掉不掉還是看他自己心情
-[20:31:21] [Server thread/INFO]: <Negaihoshi> 是喔
-[20:31:35] [Server thread/INFO]: <dragonfly> 火燒森林
-[20:31:39] [Server thread/INFO]: <teatea> 呃 往高山?
-[20:31:54] [Server thread/INFO]: <teatea> 我快死了
-[20:32:02] [Server thread/INFO]: <dragonfly> 我們塊陶吧
-[20:32:04] [Server thread/INFO]: <Negaihoshi> 為什麼
-[20:32:18] [Server thread/INFO]: <teatea> 欸大哥 走上面
-[20:32:25] [Server thread/INFO]: <teatea> 呃..
-[20:32:50] [Server thread/INFO]: <teatea> 往娜喔
-[20:32:56] [Server thread/INFO]: <teatea> 塊天黑了
-[20:33:11] [Server thread/INFO]: <teatea> 蜻蜓?
-[20:33:14] [Server thread/INFO]: <dragonfly> 發囉咪
-[20:33:14] [Server thread/INFO]: <teatea> 喔~
-[20:34:33] [Server thread/INFO]: <dragonfly> 好像有骷髏
-[20:34:35] [Server thread/INFO]: <dragonfly> 有人設我
-[20:34:36] [Server thread/INFO]: <teatea> 要蓋?
-[20:34:38] [Server thread/INFO]: <teatea> DDD
-[20:34:41] [Server thread/INFO]: <teatea> XDDD
-[20:34:44] [Server thread/INFO]: <teatea> 要蓋屋子嘛
-[20:34:55] [Server thread/INFO]: <Negaihoshi> 我絕對不會承認是我射的
-[20:35:05] [Server thread/INFO]: <teatea> 睡樹上
-[20:35:06] [Server thread/INFO]: <dragonfly> 0.0
-[20:35:23] [Server thread/INFO]: <teatea> 欸欸
-[20:35:25] [Server thread/INFO]: <dragonfly> 樹上沒怪
-[20:35:26] [Server thread/INFO]: <teatea> 巫婆家
-[20:35:30] [Server thread/INFO]: <teatea> 靠邀阿阿阿
-[20:36:09] [Server thread/INFO]: <teatea> 幹嘛阿
-[20:36:28] [Server thread/INFO]: <teatea> 睡惹
-[20:36:43] [Server thread/INFO]: <teatea> ..
-[20:36:51] [Server thread/INFO]: Kizuna lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:36:51] [Server thread/INFO]: Kizuna left the game
-[20:36:53] [Server thread/INFO]: Negaihoshi lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:36:53] [Server thread/INFO]: Negaihoshi left the game
-[20:36:53] [Server thread/INFO]: dragonfly lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 連線已被您主機上的軟體中止。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:36:53] [Server thread/INFO]: dragonfly left the game
-[20:37:04] [Server thread/INFO]: dragonfly[/36.231.132.23:2697] logged in with entity id 99509 at (18.624329613537668, 69.0, -812.9387969414943)
-[20:37:04] [Server thread/INFO]: dragonfly joined the game
-[20:37:05] [Server thread/INFO]: Negaihoshi[/169.254.216.10:49534] logged in with entity id 99510 at (22.207681049690258, 69.0, -811.8257479879995)
-[20:37:05] [Server thread/INFO]: Negaihoshi joined the game
-[20:37:06] [Server thread/INFO]: Kizuna[/114.42.116.46:54552] logged in with entity id 99511 at (70.3481391586711, 80.0, 289.5511410636367)
-[20:37:06] [Server thread/INFO]: Kizuna joined the game
-[20:37:11] [Server thread/INFO]: <teatea> 我剛還以為你們想玩CS
-[20:37:22] [Server thread/INFO]: <dragonfly> 趁白天快跑回家
-[20:37:38] [Server thread/INFO]: teatea has just earned the achievement [Monster Hunter]
-[20:37:57] [Server thread/INFO]: <dragonfly> 這
-[20:38:01] [Server thread/INFO]: <dragonfly> 節點
-[20:38:13] [Server thread/INFO]: <teatea> 超讚
-[20:39:03] [Server thread/INFO]: <teatea> XD
-[20:39:08] [Server thread/INFO]: <teatea> ..
-[20:40:20] [Server thread/INFO]: <teatea> 走樹上比較快
-[20:40:44] [Server thread/INFO]: <dragonfly> 這
-[20:40:47] [Server thread/INFO]: <dragonfly> 兇惡節點
-[20:41:33] [Server thread/INFO]: <teatea> 人勒
-[20:41:41] [Server thread/INFO]: <teatea> 黑 屋子
-[20:41:46] [Server thread/INFO]: <teatea> 採磨豆吧
-[20:42:37] [Server thread/INFO]: <teatea> 沒豆子..
-[20:43:22] [Server thread/INFO]: <teatea> 黑 一口氣衝回家喔
-[20:43:49] [Server thread/INFO]: <teatea> 蜻蜓哩
-[20:43:54] [Server thread/INFO]: <dragonfly> 你們在衝了喔
-[20:43:57] [Server thread/INFO]: <teatea> 對阿
-[20:43:59] [Server thread/INFO]: <teatea> 沙漠這
-[20:44:01] [Server thread/INFO]: <dragonfly> 魔豆左邊過海有兇惡節點
-[20:44:04] [Server thread/INFO]: <teatea> 0.0
-[20:44:09] [Server thread/INFO]: <teatea> 可是中午了
-[20:44:15] [Server thread/INFO]: <teatea> 地震= =
-[20:44:26] [Server thread/INFO]: <Negaihoshi> ！？
-[20:44:30] [Server thread/INFO]: <dragonfly> 你們先走我等等感到
-[20:44:33] [Server thread/INFO]: <teatea> 嗯..
-[20:44:58] [Server thread/INFO]: <teatea> 往哪
-[20:45:02] [Server thread/INFO]: <teatea> XD
-[20:45:23] [Server thread/INFO]: <dragonfly> 這
-[20:45:25] [Server thread/INFO]: <dragonfly> 右邊
-[20:45:48] [Server thread/INFO]: <dragonfly> 這我來過欸
-[20:45:50] [Server thread/INFO]: <dragonfly> 都是我的記號
-[20:46:06] [Server thread/INFO]: <teatea> ...
-[20:46:11] [Server thread/INFO]: <Negaihoshi> 別過去 會吸
-[20:46:16] [Server thread/INFO]: <teatea> 我被摔過
-[20:46:41] [Server thread/INFO]: <dragonfly> 回家了!
-[20:46:47] [Server thread/INFO]: <teatea> 耶
-[20:47:21] [Server thread/INFO]: <teatea> 蜻蜓 你想要馬嗎?
-[20:47:24] [Server thread/INFO]: <teatea> 很近的地方有
-[20:47:31] [Server thread/INFO]: <dragonfly> 我知道在哪
-[20:47:35] [Server thread/INFO]: <teatea> OK
-[20:47:35] [Server thread/INFO]: <dragonfly> 可是還沒做繩子
-[20:47:46] [Server thread/INFO]: <teatea> 河邊都有鞍
-[20:47:53] [Server thread/INFO]: <teatea> 拿燁燁家那邊的
-[20:48:56] [Server thread/INFO]: Kizuna lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:48:56] [Server thread/INFO]: Kizuna left the game
-[20:49:21] [Server thread/INFO]: <teatea> 這次感覺蠻有收穫的
-[20:51:20] [Server thread/INFO]: <teatea> ..蜻蜓
-[20:51:24] [Server thread/INFO]: <teatea> 我剛發現你的床在我身上XD
-[20:51:27] [Server thread/INFO]: <dragonfly> ..
-[20:51:46] [Server thread/INFO]: <teatea> 我放我家門口 你有空來拿
-[20:51:52] [Server thread/INFO]: <dragonfly> 恩
-[20:52:09] [Server thread/INFO]: <Negaihoshi> 對了 箱子的模組 可以相鄰放喔
-[20:52:14] [Server thread/INFO]: <teatea> = =
-[20:53:03] [Server thread/INFO]: <teatea> 這次遠征發現冷跟氣候兩個新元素
-[20:53:07] [Server thread/INFO]: <teatea> 感覺很有收穫~
-[20:53:17] [Server thread/INFO]: <Negaihoshi> 不錯喔
-[20:53:26] [Server thread/INFO]: <teatea> 可是關鍵的好多問號原速還是沒發現到
-[20:53:29] [Server thread/INFO]: <teatea> 唉-.-
-[20:53:43] [Server thread/INFO]: <Negaihoshi> 你有感知嗎
-[20:53:48] [Server thread/INFO]: <teatea> ?
-[20:54:03] [Server thread/INFO]: <Negaihoshi> 一個大腦圖案的元素
-[20:54:10] [Server thread/INFO]: <teatea> 梅耶
-[20:54:25] [Server thread/INFO]: <Negaihoshi> 那死亡元素呢
-[20:54:29] [Server thread/INFO]: <teatea> 死亡嘛
-[20:54:37] [Server thread/INFO]: <Negaihoshi> 墓碑圖案
-[20:54:42] [Server thread/INFO]: <teatea> 也沒
-[20:54:50] [Server thread/INFO]: <teatea> 水好像熱了 我先洗澡
-[20:54:53] [Server thread/INFO]: <teatea> 等等在說~
-[20:54:55] [Server thread/INFO]: teatea lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 連線已被您主機上的軟體中止。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[20:54:55] [Server thread/INFO]: teatea left the game
-[21:04:15] [Server thread/INFO]: Unknown command. Try /help for a list of commands
-[21:04:22] [Server thread/INFO]: [Server] 伺服器要先關了喔
-[21:04:30] [Server thread/INFO]: <dragonfly> ok
-[21:04:33] [Server thread/INFO]: [Server] 要教還給朋內小夏
-[21:04:34] [Server thread/INFO]: dragonfly lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[21:04:34] [Server thread/INFO]: dragonfly left the game
-[21:04:38] [Server thread/INFO]: Negaihoshi lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[21:04:38] [Server thread/INFO]: Negaihoshi left the game
-[21:04:43] [Server thread/INFO]: Stopping server
-[21:04:43] [Server thread/INFO]: Saving players
-[21:04:43] [Server thread/INFO]: Saving worlds
-[21:04:43] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[21:04:43] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[21:04:43] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[04:40:58] [Server thread/INFO]: Loading properties
+[04:40:59] [Server thread/INFO]: Default game type: SURVIVAL
+[04:40:59] [Server thread/INFO]: Generating keypair
+[04:40:59] [Server thread/INFO]: Starting Minecraft server on *:12345
+[04:40:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:40:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:40:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:40:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:41:01] [Server thread/INFO]: Preparing level "world"
+[04:41:02] [Server thread/INFO]: Preparing start region for level 0
+[04:41:03] [Server thread/INFO]: Preparing spawn area: 4%
+[04:41:04] [Server thread/INFO]: Preparing spawn area: 55%
+[04:41:05] [Server thread/INFO]: Preparing spawn area: 93%
+[04:41:05] [Server thread/INFO]: Done (4.296s)! For help, type "help" or "?"
+[08:53:12] [Server thread/INFO]: ANDREW[/140.127.170.105:49618] logged in with entity id 518 at (135.1487564198897, 72.0, 365.717323419284)
+[08:53:12] [Server thread/INFO]: ANDREW joined the game
+[09:09:10] [Server thread/WARN]: ANDREW moved wrongly!
+[09:10:36] [Server thread/INFO]: franck2012 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[09:10:36] [Server thread/INFO]: franck2012 left the game
+[09:11:42] [Server thread/INFO]: franck2012[/140.127.170.105:49759] logged in with entity id 97285 at (138.5391394727051, 72.0, 442.9193282765425)
+[09:11:42] [Server thread/INFO]: franck2012 joined the game
+[09:11:57] [Server thread/INFO]: <ANDREW> 0安安
+[09:49:12] [Server thread/INFO]: franck2012 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[09:49:12] [Server thread/INFO]: franck2012 left the game
+[09:51:10] [Server thread/INFO]: ANDREW lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[09:51:10] [Server thread/INFO]: ANDREW left the game
+[10:28:48] [Server thread/INFO]: ANDREW[/140.127.170.63:50011] logged in with entity id 163699 at (139.54615790323547, 72.0, 366.24922371035757)
+[10:28:48] [Server thread/INFO]: ANDREW joined the game
+[10:45:10] [Server thread/INFO]: franck2012[/140.127.170.63:50442] logged in with entity id 229577 at (137.86965690245037, 65.0, 443.4353672810131)
+[10:45:10] [Server thread/INFO]: franck2012 joined the game
+[10:45:14] [Server thread/INFO]: <ANDREW> GGGGGG
+[11:03:28] [Server thread/INFO]: ANDREW lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[11:03:28] [Server thread/INFO]: ANDREW left the game
+[11:30:41] [Server thread/INFO]: franck2012 has just earned the achievement [Time to Farm!]
+[11:56:38] [Server thread/INFO]: franck2012 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[11:56:38] [Server thread/INFO]: franck2012 left the game
+[14:17:45] [Server thread/INFO]: lolicat_13 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[14:17:45] [Server thread/INFO]: lolicat_13 left the game
+[14:18:04] [Server thread/INFO]: lolicat_13 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[14:18:04] [Server thread/INFO]: lolicat_13 left the game
+[14:54:57] [Server thread/INFO]: franck2012[/36.238.174.209:53077] logged in with entity id 335162 at (138.44679342761623, 54.0, 427.39609691495696)
+[14:54:57] [Server thread/INFO]: franck2012 joined the game
+[15:27:06] [Server thread/INFO]: franklin[/140.135.43.16:49672] logged in with entity id 367819 at (175.6693607510767, 87.0, 292.30695492134123)
+[15:27:06] [Server thread/INFO]: franklin joined the game
+[16:00:31] [Server thread/INFO]: franck2012 lost connection: TextComponent{text='You have been idle for too long!', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[16:00:31] [Server thread/INFO]: franck2012 left the game
+[16:00:44] [Server thread/INFO]: franklin lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[16:00:44] [Server thread/INFO]: franklin left the game
+[16:06:57] [Server thread/INFO]: franck2012[/36.238.174.209:55913] logged in with entity id 462245 at (130.5565674792706, 68.0, 434.3115579081594)
+[16:06:57] [Server thread/INFO]: franck2012 joined the game
+[16:21:40] [Server thread/INFO]: ANDREW[/114.35.235.153:49652] logged in with entity id 495769 at (629.2606139779988, 69.0, 306.43570546898945)
+[16:21:40] [Server thread/INFO]: ANDREW joined the game
+[16:21:51] [Server thread/INFO]: <ANDREW> GG
+[16:21:52] [Server thread/INFO]: <franck2012> RC
+[16:21:57] [Server thread/INFO]: ANDREW lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 連線已被您主機上的軟體中止。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[16:21:57] [Server thread/INFO]: ANDREW left the game
+[16:22:19] [Server thread/INFO]: ANDREW[/114.35.235.153:49728] logged in with entity id 496820 at (626.7492148337125, 69.0, 303.415165711923)
+[16:22:19] [Server thread/INFO]: ANDREW joined the game
+[16:22:40] [Server thread/INFO]: franklin[/140.135.43.16:51528] logged in with entity id 498700 at (178.52822719808552, 87.0, 285.953227180718)
+[16:22:40] [Server thread/INFO]: franklin joined the game
+[16:24:43] [Server thread/INFO]: <ANDREW> ...幹嘛不回我畫
+[16:24:58] [Server thread/INFO]: <franck2012> 有回阿
+[16:25:18] [Server thread/INFO]: <ANDREW> 你沒聽到我說話喔IAI?
+[16:26:04] [Server thread/INFO]: <ANDREW> 等等我MIC怪怪
+[16:27:41] [Server thread/INFO]: [Server] 五點關伺服器
+[16:27:47] [Server thread/INFO]: ANDREW[/114.35.235.153:49868] logged in with entity id 514102 at (135.8897409684427, 76.0, 366.9260939593274)
+[16:27:47] [Server thread/INFO]: ANDREW joined the game
+[16:27:53] [Server thread/INFO]: franklin lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[16:27:53] [Server thread/INFO]: franklin left the game
+[16:27:58] [Server thread/INFO]: ANDREW lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[16:27:58] [Server thread/INFO]: ANDREW left the game
+[16:44:24] [Server thread/INFO]: ANDREW lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[16:44:24] [Server thread/INFO]: ANDREW left the game
+[16:44:48] [Server thread/INFO]: ANDREW[/114.35.235.153:50123] logged in with entity id 561271 at (132.3471265395582, 88.0, 369.6767020753844)
+[16:44:48] [Server thread/INFO]: ANDREW joined the game
+[16:53:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3005ms behind, skipping 60 tick(s)
+[16:53:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6980ms behind, skipping 139 tick(s)
+[16:56:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3519ms behind, skipping 70 tick(s)
+[16:59:08] [Server thread/WARN]: ANDREW moved wrongly!
+[16:59:25] [Server thread/WARN]: ANDREW moved wrongly!
+[17:02:47] [Server thread/WARN]: franck2012 moved wrongly!
+[17:03:12] [Server thread/INFO]: Natsu[/140.135.43.80:51814] logged in with entity id 607999 at (123.24526430640125, 74.0, 291.3084423176675)
+[17:03:12] [Server thread/INFO]: Natsu joined the game
+[17:03:18] [Server thread/INFO]: <ANDREW> 小夏耶
+[17:03:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2974ms behind, skipping 59 tick(s)
+[17:03:44] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8484ms behind, skipping 169 tick(s)
+[17:03:51] [Server thread/INFO]: <Natsu> 我等等要關機喔 周日下午才會再開
+[17:04:00] [Server thread/INFO]: <ANDREW> 回家喔~?
+[17:04:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7942ms behind, skipping 158 tick(s)
+[17:04:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6652ms behind, skipping 133 tick(s)
+[17:04:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10587ms behind, skipping 211 tick(s)
+[17:04:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5890ms behind, skipping 117 tick(s)
+[17:05:32] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 16244ms behind, skipping 324 tick(s)
+[17:05:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3989ms behind, skipping 79 tick(s)
+[17:05:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5030ms behind, skipping 100 tick(s)
+[17:06:18] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7202ms behind, skipping 144 tick(s)
+[17:06:32] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5392ms behind, skipping 107 tick(s)
+[17:06:57] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9055ms behind, skipping 181 tick(s)
+[17:07:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9877ms behind, skipping 197 tick(s)
+[17:07:23] [Server thread/INFO]: Natsu lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[17:07:23] [Server thread/INFO]: Natsu left the game
+[17:07:33] [Server thread/INFO]: [Server] 關囉
+[17:07:55] [Server thread/INFO]: franck2012 lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: 遠端主機已強制關閉一個現存的連線。], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[17:07:55] [Server thread/INFO]: franck2012 left the game
+[17:07:58] [Server thread/INFO]: ANDREW lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[17:07:58] [Server thread/INFO]: ANDREW left the game
+[17:09:45] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[17:09:50] [Server thread/INFO]: Stopping the server
+[17:09:50] [Server thread/INFO]: Stopping server
+[17:09:50] [Server thread/INFO]: Saving players
+[17:09:50] [Server thread/INFO]: Saving worlds
+[17:09:50] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[17:09:50] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[17:09:50] [Server thread/INFO]: Saving chunks for level 'world'/The End
